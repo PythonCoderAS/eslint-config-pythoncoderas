@@ -1,2 +1,2 @@
 # eslint-config
-My reusable eslint config
+My reusable eslint config.

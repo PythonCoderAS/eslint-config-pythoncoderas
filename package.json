@@ -5,7 +5,9 @@
   "main": "index.js",
   "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier --check index.js && eslint index.js",
+    "lint-fix": "prettier --write index.js && eslint --fix index.js"
   },
   "repository": {
     "type": "git",

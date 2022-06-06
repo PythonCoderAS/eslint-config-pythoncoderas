@@ -1,9 +1,8 @@
 {
-  "name": "@pythoncoderas/eslint-config",
+  "name": "eslint-config-pythoncoderas",
   "version": "1.0.0",
   "description": "My reusable eslint config.",
   "main": "index.js",
-  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "prettier --check index.js && eslint index.js",
@@ -11,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PythonCoderAS/eslint-config.git"
+    "url": "git+https://github.com/PythonCoderAS/eslint-config-pythoncoderas.git"
   },
   "keywords": [
     "eslint",
@@ -20,9 +19,9 @@
   "author": "PythonCoderAS",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PythonCoderAS/eslint-config/issues"
+    "url": "https://github.com/PythonCoderAS/eslint-config-pythoncoderas/issues"
   },
-  "homepage": "https://github.com/PythonCoderAS/eslint-config#readme",
+  "homepage": "https://github.com/PythonCoderAS/eslint-config-pythoncoderas#readme",
   "peerDependencies": {
     "eslint": "^7.32.0 || ^8.17.0",
     "prettier": "^2.6.2"

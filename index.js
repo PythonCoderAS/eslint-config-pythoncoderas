@@ -1,9 +1,9 @@
 module.exports = {
     // eslint-configs
-    extends: ['airbnb-base', 'plugin:prettier/recommended', 'standard', 'xo-space'],
+    extends: ['airbnb-base', 'standard', 'xo-space', 'prettier'],
     // eslint-plugins
-    plugins: ['simple-import-sort'],
-    // enabling/disabling/changing level of rules
+    plugins: [],
+    // Enabling/disabling/changing level of rules
     rules: {
         "arrow-spacing": ["warn", { "before": true, "after": true }],
         "comma-spacing": "error",

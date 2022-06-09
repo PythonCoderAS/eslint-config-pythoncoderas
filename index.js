@@ -1,6 +1,12 @@
 module.exports = {
   // eslint-configs
-  extends: ["airbnb-base", "standard", "xo-space", "prettier"],
+  extends: [
+    "eslint:recommended",
+    "airbnb-base",
+    "standard",
+    "xo-space",
+    "prettier",
+  ],
   // eslint-plugins
   plugins: [],
   // Enabling/disabling/changing level of rules

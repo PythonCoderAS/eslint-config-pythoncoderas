@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "prettier --check index.js && eslint index.js",
-    "lint-fix": "prettier --write index.js && eslint --fix index.js"
+    "lint-fix": "prettier --write index.js && eslint --fix index.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,13 @@
     "eslint-config-xo-space": "^0.33.0"
   },
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "eslint": "^8.17.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "semantic-release": "^19.0.3"
   }
 }

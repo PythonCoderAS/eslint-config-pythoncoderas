@@ -21,6 +21,7 @@ module.exports = {
     "max-nested-callbacks": ["error", { max: 4 }],
     "max-statements-per-line": ["error", { max: 2 }],
     "no-console": "off",
+    "no-bitwise": ["error", { allow: ["~", "^", "^="] }],
     "no-empty-function": "error",
     "no-floating-decimal": "error",
     "no-inline-comments": "error",

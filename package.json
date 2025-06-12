@@ -34,7 +34,7 @@
     "eslint-config-xo-space": "^0.35.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^17.0.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-promise": "^7.2.1"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^13.0.0",
